@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="http_url_connection_failed">Http url connection failed</string>
+    <string name="zero">0.0</string>
+    <string name="zero_usd">0.0 USD</string>
+    <string name="zero_gpb">0.0 GBP</string>
+    <string name="zero_eur">0.0 EUR</string>
+    <string name="zero_btc">0.0 BTC</string>
+    <string name="usd">USD</string>
+    <string name="usd_full">US Dollars</string>
+    <string name="gbp">GBP</string>
+    <string name="gbp_full">Pound Sterling</string>
+    <string name="eur">EUR</string>
+    <string name="eur_full">Euro</string>
+    <string name="btc">BTC</string>
+    <string name="historical_price">Historical Price >>></string>
+    <string name="historical_prices">Historical Price</string>
+    <string name="convert_to_btc">Convert to BTC</string>
+    <string name="can_not_convert_to_number">Can\'t convert to number</string>
+    <string name="required_currency">Please enter the amount of your currency.</string>
+
+</resources>

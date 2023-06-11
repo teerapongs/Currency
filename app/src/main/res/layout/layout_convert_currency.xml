@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="@color/black_dark_secondary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/currency_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@color/white"
+                android:foregroundTint="@color/black_dark_secondary"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/currency_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_atop"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_btc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/zero_btc"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_btc_orange"
+            android:drawablePadding="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
